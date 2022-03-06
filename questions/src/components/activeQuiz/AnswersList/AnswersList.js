@@ -11,6 +11,7 @@ export default function AnswersList(props) {
                 <AnswerItem
                 key={index}
                 answer={answer}
+                onClickHandler={props.onClickHandler}
                 />
             )
         })}
