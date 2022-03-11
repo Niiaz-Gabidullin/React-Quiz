@@ -10,8 +10,9 @@ export default function AnswersList(props) {
             return(
                 <AnswerItem
                 key={index}
-                answer={answer}
+                answer={answer} 
                 onClickHandler={props.onClickHandler}
+                state={props.state? props.state[answer.id]: null}
                 />
             )
         })}
