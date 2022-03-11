@@ -7,7 +7,7 @@ export default class Quiz extends Component {
   state = {
     activeQuestion: 0,
     answerState: null,
-    isFinished: false,
+    isFinished: true,
     quiz: [
       {
         question: "Какого цвета небо?",
